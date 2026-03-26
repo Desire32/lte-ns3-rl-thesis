@@ -62,12 +62,13 @@ IMPORTANT: export NS3_HOME=$(pwd)/ns-3.XX, without NS3_HOME path won't be found 
 OPTIONAL: export WANDB_API_KEY"YOUR_KEY", if you wish to track with wandb
 ```
 
-6. Install the python dependency of defiance with poetry:
+6. Install the python dependency of defiance with pip:
 ``` 
-poetry -C contrib/defiance install --without local
-./ns3 configure --enable-python --enable-examples --enable-tests (running should succeed).
-./ns3 build ai (compile ns3-ai to generate the message types with protobuf)
-poetry -C contrib/defiance install --with local (Install the python packages of ns3-ai)
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt
+
+cd contrib/ai/model/gym-interface/py
+pip install .
 ```
 7. Compile everything:
 ```
