@@ -59,12 +59,14 @@ OPTIONAL: export WANDB_API_KEY"YOUR_KEY", if you wish to track with wandb
 ``` 
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
+pip install cppyy
 
-cd contrib/ai/model/gym-interface/py
-pip install .
+pip install -e contrib/ai/python_utils
+pip install -e contrib/ai/model/gym-interface/py
 ```
 7. Compile everything:
 ```
+./ns3 configure --enable-examples --enable-tests -- -DPython_EXECUTABLE=$(which python) -DPython3_EXECUTABLE=$(which python)
 ./ns3 build
 ```
 
