@@ -1,10 +1,3 @@
-ADDITIONAL INSTRUCTION ABOUT DEFIANCE PROJECT AND AI MODULE CAN BE FOUND HERE: 
-
-[https://github.com/DEFIANCE-project/ns3-DEFIANCE] 
-
-[https://github.com/DEFIANCE-project/ns3-ai/blob/c18b8a3ea67978ea1ebb2fe0263b10d25f220ee8/docs/install.md]
-
-
 # LTE NS-3 RL Thesis
 
 Reinforcement learning agent for LTE downlink power control using ns-3 and Ray RLlib.
@@ -85,3 +78,15 @@ chmod +x *.sh
 ./main.sh    # start training
 ./wandb.sh   # start training with wandb logging
 ```
+
+
+IN CASE BUILD STILL DOES NOT WORK, PLEASE CHECK MAIN REPOSITORY FOR UPDATED README FILE.
+
+[https://github.com/Desire32/lte-ns3-rl-thesis]
+
+ADDITIONAL INSTRUCTION ABOUT DEFIANCE PROJECT AND AI MODULE CAN BE FOUND HERE: 
+
+[https://github.com/DEFIANCE-project/ns3-DEFIANCE] 
+
+[https://github.com/DEFIANCE-project/ns3-ai/blob/c18b8a3ea67978ea1ebb2fe0263b10d25f220ee8/docs/install.md]
+
