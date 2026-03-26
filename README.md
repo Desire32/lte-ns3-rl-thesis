@@ -48,7 +48,7 @@ cp contrib/defiance/examples/lte-ns3-rl-thesis/ray.py contrib/defiance/model/age
 python3.12 -m venv .venv
 source .venv/bin/activate
 ```
-
+REMEMBER, ALL THE STEPS STARTING FROM STEP 4 MUST BE DONE BEING IN VIRTUAL ENVIRONMENT (.venv)
 5. Export the environment
 ```
 IMPORTANT: export NS3_HOME=$(pwd)/ns-3.XX, without NS3_HOME path won't be found and code won't work
