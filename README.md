@@ -16,6 +16,11 @@ rm -rf contrib/defiance/examples
 git clone https://github.com/Desire32/lte-ns3-rl-thesis.git contrib/defiance/examples/lte-ns3-rl-thesis
 ```
 
+3.1 Replace old ray.py with the new one:
+```
+cp contrib/defiance/examples/lte-ns3-rl-thesis/ray.py contrib/defiance/model/agents/single/ray.py
+```
+
 4. Create the python venv and activate it:
 ```
 python3.12 -m venv .venv
