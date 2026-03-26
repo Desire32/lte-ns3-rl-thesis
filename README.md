@@ -1,9 +1,34 @@
-# Was tested and implemented on Linux, partially implemented in Mac.
 ADDITIONAL INSTRUCTION ABOUT DEFIANCE PROJECT AND AI MODULE CAN BE FOUND HERE: 
 
 [https://github.com/DEFIANCE-project/ns3-DEFIANCE] 
 
 [https://github.com/DEFIANCE-project/ns3-ai/blob/c18b8a3ea67978ea1ebb2fe0263b10d25f220ee8/docs/install.md]
+
+
+# LTE NS-3 RL Thesis
+
+Reinforcement learning agent for LTE downlink power control using ns-3 and Ray RLlib.
+
+## How it works
+
+The simulation runs in ns-3 (C++) and communicates with a Python RL agent via the ns3-ai interface.
+On each step the agent receives SINR values for every (BS, UE) pair and decides the TX power for each base station.
+```
+Python RL Agent (Ray/RLlib)
+        ↕  ns3-ai socket
+ns-3 LTE Simulation (C++)
+  └── PowerControlMobComEnv
+        ├── Observation: SINR matrix [nBS × nUE]
+        ├── Action:      TX power per BS [0..46 dBm]
+        └── Reward:      coverage + efficiency
+```
+
+## Requirements
+
+- Ubuntu 22.04
+- Python 3.12
+- ns-3.46.1 with contrib/defiance and contrib/ai
+
 
 1. Install ns-3.46.1 https://www.nsnam.org/releases/ns-3.46.1.tar.bz2
 2. Locate into ns-3.4.1/ and Install AI/Defiance frameworks using the next command:
