@@ -18,7 +18,7 @@ endif()
 include_directories(${pybind11_INCLUDE_DIRS})
 
 build_lib_example(
-        NAME defiance-lte-learning
+        NAME defiance-lte-ns3-rl-thesis
         SOURCE_FILES
                 pc-simulation.cc
                 pc-environment.cc

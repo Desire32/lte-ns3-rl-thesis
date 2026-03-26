@@ -1,3 +1,2 @@
 #!/bin/bash
-export WANDB_MODE=disabled
 run-agent train --single -n defiance-lte-ns3-rl-thesis --iterations 100
