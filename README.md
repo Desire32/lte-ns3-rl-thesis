@@ -21,7 +21,19 @@ ns-3 LTE Simulation (C++)
 - Ubuntu 22.04
 - Python 3.12
 - ns-3.46.1 with contrib/defiance and contrib/ai
-
+  
+Requirements
+Boost C++ libraries
+Ubuntu: sudo apt install libboost-all-dev
+macOS: brew install boost
+Protocol buffers
+Ubuntu: sudo apt install libprotobuf-dev protobuf-compiler
+macOS: brew install protobuf
+pybind11
+Ubuntu: sudo apt install pybind11-dev
+macOS: brew install pybind11
+A Python virtual environment dedicated for ns3-ai (highly recommended)
+For example, to use conda to create an environment named ns3ai_env with python version 3.11: conda create -n ns3ai_env python=3.11.
 
 1. Install ns-3.46.1 https://www.nsnam.org/releases/ns-3.46.1.tar.bz2
 2. Locate into ns-3.4.1/ and Install AI/Defiance frameworks using the next command:
@@ -60,6 +72,8 @@ OPTIONAL: export WANDB_API_KEY"YOUR_KEY", if you wish to track with wandb
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
 pip install cppyy
+
+pip install pybind11 protobuf
 
 pip install -e contrib/ai/python_utils
 pip install -e contrib/ai/model/gym-interface/py
