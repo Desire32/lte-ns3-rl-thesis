@@ -1,5 +1,9 @@
 # Was tested and implemented on Linux, partially implemented in Mac.
-# ADDITIONAL INSTRUCTION ABOUT DEFIANCE PROJECT CAN BE FOUND HERE: [https://github.com/DEFIANCE-project/ns3-DEFIANCE]
+ADDITIONAL INSTRUCTION ABOUT DEFIANCE PROJECT AND AI MODULE CAN BE FOUND HERE: 
+
+[https://github.com/DEFIANCE-project/ns3-DEFIANCE] 
+
+[https://github.com/DEFIANCE-project/ns3-ai/blob/c18b8a3ea67978ea1ebb2fe0263b10d25f220ee8/docs/install.md]
 
 1. Install ns-3.46.1 https://www.nsnam.org/releases/ns-3.46.1.tar.bz2
 2. Locate into ns-3.4.1/ and Install AI/Defiance frameworks using the next command:
