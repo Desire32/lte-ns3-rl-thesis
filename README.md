@@ -73,3 +73,14 @@ poetry -C contrib/defiance install --with local (Install the python packages of 
 ```
 ./ns3 build
 ```
+
+8. Usage:
+In case these don't work, write commands manually in the console
+```bash
+cd ssh/
+chmod +x *.sh
+
+./test.sh    # run sanity check first
+./main.sh    # start training
+./wandb.sh   # start training with wandb logging
+```
