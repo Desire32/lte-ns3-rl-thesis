@@ -22,7 +22,7 @@ ns-3 LTE Simulation (C++)
 - Python 3.12
 - ns-3.46.1 with contrib/defiance and contrib/ai
   
-Requirements
+```
 Boost C++ libraries
 Ubuntu: sudo apt install libboost-all-dev
 macOS: brew install boost
@@ -34,6 +34,7 @@ Ubuntu: sudo apt install pybind11-dev
 macOS: brew install pybind11
 A Python virtual environment dedicated for ns3-ai (highly recommended)
 For example, to use conda to create an environment named ns3ai_env with python version 3.11: conda create -n ns3ai_env python=3.11.
+```
 
 1. Install ns-3.46.1 https://www.nsnam.org/releases/ns-3.46.1.tar.bz2
 2. Locate into ns-3.4.1/ and Install AI/Defiance frameworks using the next command:
@@ -94,15 +95,3 @@ chmod +x *.sh
 ./main.sh    # start training
 ./wandb.sh   # start training with wandb logging
 ```
-
-
-IN CASE BUILD STILL DOES NOT WORK, PLEASE CHECK MAIN REPOSITORY FOR UPDATED README FILE.
-
-[https://github.com/Desire32/lte-ns3-rl-thesis]
-
-ADDITIONAL INSTRUCTION ABOUT DEFIANCE PROJECT AND AI MODULE CAN BE FOUND HERE: 
-
-[https://github.com/DEFIANCE-project/ns3-DEFIANCE] 
-
-[https://github.com/DEFIANCE-project/ns3-ai/blob/c18b8a3ea67978ea1ebb2fe0263b10d25f220ee8/docs/install.md]
-
