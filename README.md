@@ -17,6 +17,7 @@ ns-3 LTE Simulation (C++)
 ```
 
 # Architecture
+![NS-3 Architecture](./screenshots/ns-3-core.png)
 
 ## Acknowledgements
 Expressing my sincere gratitude to my mentor, Christoforos Christoforou, for the guidance and materials provided throughout this work, and to the Huawei team for sharing their vision and insights on 6G technologies. 
