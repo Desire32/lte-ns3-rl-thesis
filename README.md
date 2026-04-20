@@ -15,3 +15,10 @@ ns-3 LTE Simulation (C++)
         ├── Action:      TX power per BS [0..46 dBm]
         └── Reward:      coverage + efficiency
 ```
+
+# Architecture
+
+## Acknowledgements
+Expressing my sincere gratitude to my mentor, Christoforos Christoforou, for the guidance and materials provided throughout this work, and to the Huawei team for sharing their vision and insights on 6G technologies. 
+
+Special thanks are extended to Ian Goodfellow, whose educational materials have been an invaluable resource in my learning journey. 
