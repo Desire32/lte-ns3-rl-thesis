@@ -16,6 +16,11 @@ ns-3 LTE Simulation (C++)
         └── Reward:      coverage + efficiency
 ```
 
+# Results
+![MER](./charts/MER.png)
+![GAE](./charts/GAE.png)
+![KL](./charts/KL.png)
+
 # Architecture
 ![NS-3 Architecture](./screenshots/ns-3-core.png)
 
