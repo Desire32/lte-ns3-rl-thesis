@@ -2,6 +2,8 @@
 
 Reinforcement learning agent for LTE downlink power control using ns-3 and Ray RLlib.
 
+A material to [read](https://desire32.github.io/blog/pages/materials/index-2.html) about.
+
 ## How it works
 
 The simulation runs in ns-3 (C++) and communicates with a Python RL agent via the ns3-ai interface.
