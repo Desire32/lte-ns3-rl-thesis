@@ -2,6 +2,8 @@
 
 Reinforcement learning agent for LTE downlink power control using ns-3 and Ray RLlib.
 
+Video presentations are located within /screenshots folder.
+
 A material to [read](https://desire32.github.io/blog/pages/materials/index-2.html) about.
 
 ## How it works
