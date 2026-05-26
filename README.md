@@ -1,4 +1,4 @@
-# LTE NS-3 RL Thesis
+# FluxNode: Intelligent Radio Orchestration for VBS Networks
 
 Reinforcement learning agent for LTE downlink power control using ns-3 and Ray RLlib.
 
@@ -32,3 +32,6 @@ ns-3 LTE Simulation (C++)
 Expressing my sincere gratitude to my mentor, Christoforos Christoforou, for the guidance and materials provided throughout this work, and to the Huawei team for sharing their vision and insights on 6G technologies. 
 
 Special thanks are extended to Ian Goodfellow, whose educational materials have been an invaluable resource in my learning journey. 
+
+# License
+Covered by Apache 2.0 License.
